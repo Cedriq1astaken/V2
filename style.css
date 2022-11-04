@@ -1,0 +1,63 @@
+/*loading page*/
+#loading-page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2F9C95;
+}
+#loading-page.active{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2F9C95;
+    animate: a 1000; 
+}
+#loading-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: bold;
+    font-size: x-large
+}
+/*naming page*/
+#name{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F4A6;
+}
+#namePlace{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+#nameInput{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: grey solid 1px;
+    border-radius: 2px;
+    width: 70%;
+    text-align: center;
+}
+#confirm{
+    position: absolute;
+    right: 5%;
+    bottom: 2.5%;
+    border: grey solid 1px;
+    background-color: #3FA7D6;
+    width: 20%;
+    height: 5%;
+    color: white;
+}
+/*Main*/
